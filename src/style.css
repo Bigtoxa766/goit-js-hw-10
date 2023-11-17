@@ -1,0 +1,24 @@
+h1, p{
+  margin: 0;
+  padding: 0;
+  
+}
+.breed-select{
+  margin-bottom: 15px;
+}
+.cat-info{
+  display: flex;
+  flex-wrap: nowraps;
+}
+.wrapper-js{
+  display: block;
+  margin-left: 15px;
+  height: auto;
+}
+
+.name-js{
+  margin-bottom: 20px;
+}
+.description-js{
+  margin-bottom: 20px;
+}
