@@ -21,10 +21,11 @@ function onSearch(e) {
   fetchCatByBreed(elementId).then(data => {
 
     if (data.length === 0) {
+      infoEl.innerHTML = '';
       return Notiflix.Report.failure('Oops! Something went wrong! Try reloading the page!')
     }
 
-    selectorEl.hidden = true;
+    // selectorEl.hidden = true;
   
     data.map(item => {
       loaderEl.style.display = 'inline-block';
